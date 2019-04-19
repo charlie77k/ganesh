@@ -1,0 +1,453 @@
+<html>
+  <head>
+    <title>Demo
+    </title>
+    <meta data-react-helmet="true" charset="utf-8">
+    <meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta data-react-helmet="true" name="referrer" content="no-referrer">
+    <link data-react-helmet="true" rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/arch-frontend/1.1.1/d1a3f4spazzrp4.cloudfront.net/stylesheets/eats-cfeec66eed.css">
+ <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <style type="text/css" data-styletron="">
+
+      ._style_3giT4T {
+      width: 100px !important;
+      max-width: 100px !important
+      }
+      ._style_s6ayy {
+        margin-top: -20px !important;
+        margin-bottom: -20px !important;
+        margin-left: -20px !important;
+        width: 100px !important
+      }
+      ._style_4kEO6r {
+        width: -webkit-max-content !important;
+        width: -moz-max-content !important;
+        width: max-content !important
+      }
+      ._style_1sxYhQ:after {
+        -webkit-transition: all 400ms ease !important;
+        content: "▾" !important;
+        position: absolute !important;
+        color: #A6A5A5 !important;
+        top: -1px !important;
+        right: 7px !important;
+        line-height: 44px !important;
+        pointer-events: none !important;
+        transition: all 400ms ease !important
+      }
+      ._style_1sxYhQ:hover {
+        cursor: pointer !important;
+        border-color: #D6D6D5 !important
+      }
+      ._style_1sxYhQ:focus {
+        border-color: #11939A !important
+      }
+      ._style_1sxYhQ:focus:after {
+        color: #11939A !important
+      }
+      ._style_INFMX {
+        position: absolute !important
+      }
+      ._style_wPoah:hover {
+        background: #F1F1F1 !important
+      }
+      ._style_wPoah:active {
+        background: #F1F1F1 !important
+      }
+      ._style_1cBulK:last-child {
+        border: none !important
+      }
+      ._style_2jozrI .Grid__innerScrollContainer {
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+        position: relative !important
+      }
+      ._style_1DzT0l:active {
+        background: #F1F1F1 !important
+      }
+      iframe#_hjRemoteVarsFrame {
+        display: none !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+      .fb_hidden{
+        position:absolute;
+        top:-10000px;
+        z-index:10001}
+      .fb_reposition{
+        overflow:hidden;
+        position:relative}
+      .fb_invisible{
+        display:none}
+      .fb_reset{
+        background:none;
+        border:0;
+        border-spacing:0;
+        color:#000;
+        cursor:auto;
+        direction:ltr;
+        font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+        font-size:11px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        letter-spacing:normal;
+        line-height:1;
+        margin:0;
+        overflow:visible;
+        padding:0;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-shadow:none;
+        text-transform:none;
+        visibility:visible;
+        white-space:normal;
+        word-spacing:normal
+      }
+
+      .fb_reset>div{
+        overflow:hidden}
+      @keyframes fb_transform{
+        from{
+          opacity:0;
+          transform:scale(.95)}
+        to{
+          opacity:1;
+          transform:scale(1)}
+      }
+      .fb_animate{
+        animation:fb_transform .3s forwards}
+      .fb_dialog{
+        background:rgba(82, 82, 82, .7);
+        position:absolute;
+        top:-10000px;
+        z-index:10001}
+      .fb_dialog_advanced{
+        border-radius:8px;
+        padding:10px}
+      .fb_dialog_content{
+        background:#fff;
+        color:#373737}
+      .fb_dialog_close_icon{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+        cursor:pointer;
+        display:block;
+        height:15px;
+        position:absolute;
+        right:18px;
+        top:17px;
+        width:15px}
+      .fb_dialog_mobile .fb_dialog_close_icon{
+        left:5px;
+        right:auto;
+        top:5px}
+      .fb_dialog_padding{
+        background-color:transparent;
+        position:absolute;
+        width:1px;
+        z-index:-1}
+      .fb_dialog_close_icon:hover{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}
+      .fb_dialog_close_icon:active{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}
+      .fb_dialog_iframe{
+        line-height:0}
+      .fb_dialog_content .dialog_title{
+        background:#6d84b4;
+        border:1px solid #365899;
+        color:#fff;
+        font-size:14px;
+        font-weight:bold;
+        margin:0}
+      .fb_dialog_content .dialog_title>span{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+        float:left;
+        padding:5px 0 7px 26px}
+      body.fb_hidden{
+        height:100%;
+        left:0;
+        margin:0;
+        overflow:visible;
+        position:absolute;
+        top:-10000px;
+        transform:none;
+        width:100%}
+      .fb_dialog.fb_dialog_mobile.loading{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+        min-height:100%;
+        min-width:100%;
+        overflow:hidden;
+        position:absolute;
+        top:0;
+        z-index:10001}
+      .fb_dialog.fb_dialog_mobile.loading.centered{
+        background:none;
+        height:auto;
+        min-height:initial;
+        min-width:initial;
+        width:auto}
+      .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{
+        width:100%}
+      .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{
+        background:none}
+      .loading.centered #fb_dialog_loader_close{
+        clear:both;
+        color:#fff;
+        display:block;
+        font-size:18px;
+        padding-top:20px}
+      #fb-root #fb_dialog_ipad_overlay{
+        background:rgba(0, 0, 0, .4);
+        bottom:0;
+        left:0;
+        min-height:100%;
+        position:absolute;
+        right:0;
+        top:0;
+        width:100%;
+        z-index:10000}
+      #fb-root #fb_dialog_ipad_overlay.hidden{
+        display:none}
+      .fb_dialog.fb_dialog_mobile.loading iframe{
+        visibility:hidden}
+      .fb_dialog_mobile .fb_dialog_iframe{
+        position:sticky;
+        top:0}
+      .fb_dialog_content .dialog_header{
+        background:linear-gradient(from(#738aba), to(#2c4987));
+        border-bottom:1px solid;
+        border-color:#1d3c78;
+        box-shadow:white 0 1px 1px -1px inset;
+        color:#fff;
+        font:bold 14px Helvetica, sans-serif;
+        text-overflow:ellipsis;
+        text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;
+        vertical-align:middle;
+        white-space:nowrap}
+      .fb_dialog_content .dialog_header table{
+        height:43px;
+        width:100%}
+      .fb_dialog_content .dialog_header td.header_left{
+        font-size:12px;
+        padding-left:5px;
+        vertical-align:middle;
+        width:60px}
+      .fb_dialog_content .dialog_header td.header_right{
+        font-size:12px;
+        padding-right:5px;
+        vertical-align:middle;
+        width:60px}
+      .fb_dialog_content .touchable_button{
+        background:linear-gradient(from(#4267B2), to(#2a4887));
+        background-clip:padding-box;
+        border:1px solid #29487d;
+        border-radius:3px;
+        display:inline-block;
+        line-height:18px;
+        margin-top:3px;
+        max-width:85px;
+        padding:4px 12px;
+        position:relative}
+      .fb_dialog_content .dialog_header .touchable_button input{
+        background:none;
+        border:none;
+        color:#fff;
+        font:bold 12px Helvetica, sans-serif;
+        margin:2px -12px;
+        padding:2px 6px 3px 6px;
+        text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+      .fb_dialog_content .dialog_header .header_center{
+        color:#fff;
+        font-size:16px;
+        font-weight:bold;
+        line-height:18px;
+        text-align:center;
+        vertical-align:middle}
+      .fb_dialog_content .dialog_content{
+        background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+        border:1px solid #4a4a4a;
+        border-bottom:0;
+        border-top:0;
+        height:150px}
+      .fb_dialog_content .dialog_footer{
+        background:#f5f6f7;
+        border:1px solid #4a4a4a;
+        border-top-color:#ccc;
+        height:40px}
+      #fb_dialog_loader_close{
+        float:left}
+      .fb_dialog.fb_dialog_mobile .fb_dialog_close_button{
+        text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+      .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{
+        visibility:hidden}
+      #fb_dialog_loader_spinner{
+        animation:rotateSpinner 1.2s linear infinite;
+        background-color:transparent;
+        background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+        background-position:50% 50%;
+        background-repeat:no-repeat;
+        height:24px;
+        width:24px}
+      @keyframes rotateSpinner{
+        0%{
+          transform:rotate(0deg)}
+        100%{
+          transform:rotate(360deg)}
+      }
+      .fb_iframe_widget{
+        display:inline-block;
+        position:relative}
+      .fb_iframe_widget span{
+        display:inline-block;
+        position:relative;
+        text-align:justify}
+      .fb_iframe_widget iframe{
+        position:absolute}
+      .fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{
+        max-width:100%}
+      .fb_iframe_widget_fluid_desktop iframe{
+        min-width:220px;
+        position:relative}
+      .fb_iframe_widget_lift{
+        z-index:1}
+      .fb_iframe_widget_fluid{
+        display:inline}
+      .fb_iframe_widget_fluid span{
+        width:100%}
+      @keyframes resizeanim {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+      .resize-triggers {
+        animation: 1ms resizeanim;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .resize-triggers, .resize-triggers > div, .contract-trigger:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+      .resize-triggers > div {
+        background: #eee;
+        overflow: auto;
+      }
+      .contract-trigger:before {
+        width: 200%;
+        height: 200%;
+      }
+      #error-caption{
+        font-weight:500;
+        font-size:12px;
+        line-height:24px;
+        color:rgb(203, 56, 11);
+        box-sizing:border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-content">
+      <div id="app-wrapper">
+        <header>
+          <div class="bit bit--logo text--center" data-reactid="6">
+          <!--   <a href="/login/" data-reactid="8">Demo
+            </a> -->
+          </div>
+        </header>
+        <div class="stage-wrapper narrow portable-one-whole forward" id="app-body" data-reactid="12">
+          <div class="soft-tiny" data-reactid="13">
+            <div data-reactid="14">
+              <form class="push--top-small forward" method="POST" data-reactid="15">
+                <h4 id="input-title" data-reactid="16">Welcome back
+                </h4>
+                <label class="label" id="input-label" for="useridInput" data-reactid="17">Sign in with your email address or mobile number.
+                </label>
+                <div style="margin-bottom:24px;" data-reactid="18">
+                  <div >
+                    <div id="cuntryCode" class="_style_4kEO6r" style="float: left; height: 44px; line-height: 44px;">
+                      <div tabindex="0" > +241
+                      </div>                      
+                    </div>
+                    <div style="display:flex;">
+                      <input id="useridInput" autocorrect="off" autocapitalize="off" name="textInputValue" class="text-input" placeholder="Email or mobile number" aria-required="true" aria-invalid="false" aria-describedby="error-caption input-title">
+                    </div>
+                  </div>
+                  <div id="error-caption">
+                  </div>
+                </div>
+                <button class="btn btn--arrow btn--full" data-reactid="24">
+                  <span class="push-small--right" data-reactid="25">Next
+                  </span>
+                </button>
+              </form>
+            </div>         
+            <div class="small push-small--bottom push-small--top" id="sign-up-link-only" data-reactid="29">
+              <p class=" display--inline" data-reactid="30">New ? 
+                <a href="">Create an account
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer data-reactid="32">
+          <div class="app-footer text-white bg-uber-black pull-app-gutter--sides soft-app-gutter--sides" data-reactid="33">
+            <div class="desk-wrapper" data-reactid="34">
+              <div class="layout soft--right" data-reactid="35">
+                <div class="layout layout__item" data-reactid="36">
+                  <div class="legal one-whole" data-reactid="37">
+                    <div class="one-half float--left soft-small--ends" data-reactid="38">©Moderni Demo
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>      
+      </div>
+    </div>   
+  </body>
+    <script>
+            $(document).ready(function () {
+               $("#cuntryCode").hide();
+                $("#useridInput").on('input', function () {
+                    var len = $("#useridInput").val().length;
+                    if (len >= 2) {
+                        var VAL = this.value;
+                        var intRegex = /^[1-9][0-9]*([.][0-9]{2}|)$/;
+                        if (!intRegex.test(VAL)) {
+                            $('#error-caption').html('Invalid email. Please check spelling.');
+                            $('#error-caption').css('color', 'red');
+                            $("#cuntryCode").hide();
+                        } else {                    
+                         if(len < 10){
+                            $('#error-caption').html('Invalid mobile number. Please try again.');
+                            $('#error-caption').css('color', 'red');
+                            $("#cuntryCode").show();
+                          }else{
+                            $('#error-caption').html('Invalid mobile number. length must be 10 digit.');
+                            $('#error-caption').css('color', 'red');
+                        }
+                      }
+                    }else{
+                       $("#cuntryCode").hide();
+                       $('#error-caption').html('');
+                    }
+
+                });             
+            });
+
+        </script>
+</html>
